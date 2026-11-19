@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="shopchik/shopchik.vcxproj" Id="f6f509bb-32d7-40d2-939a-499c003e4df1" />
+</Solution>

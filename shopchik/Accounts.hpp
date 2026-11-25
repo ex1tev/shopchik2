@@ -12,6 +12,7 @@ extern std::wstring* passArr;
 extern std::wstring* statusArr;
 extern size_t* userIdArr;
 
+void CangeAccounts();
 
 
 #endif // !_ACCOUNTS_HPP_

@@ -408,17 +408,17 @@ void ChangeStorage()
 		{
 			AddNewProduct();
 		}
-		else if (choose == L"2")
+		else if (choose == L"2" && sizeSt > 0)
 		{
 			ChangeProductName();
 		}
-		else if (choose == L"3")
+		else if (choose == L"3" && sizeSt > 0)
 		{
 			DeleteProduct();
 		}
 		else if (choose == L"4")
 		{
-			
+			ChangeStorageLimits();
 		}
 		else if (choose == L"0")
 		{

@@ -37,7 +37,7 @@ bool Login()
 	while (true)
 	{
 		system("cls");
-		std::wcout << L"\t\t\t\t\tДобро пожаловать в магазин питомцев\"Петы\"!\n\n";
+		std::wcout << L"\t\t\t\t\tДобро пожаловать в магазин девайсов\"\"!\n\n";
 		std::wcout << L"Введите логин или \"exit\" для выхода: ";
 		Getline(login);
 		if (login == L"exit" || login == L"Exit")
@@ -94,15 +94,15 @@ void SuperAdminMenu()
 		{
 			ShowStorage();
 		}
-		else if (choose == L"3")
+		else if (choose == L"3" && sizeSt > 0)
 		{
 			AddProduct();
 		}
-		else if (choose == L"4")
+		else if (choose == L"4" && sizeSt > 0)
 		{
 			RemoveProduct();
 		}
-		else if (choose == L"5")
+		else if (choose == L"5" && sizeSt > 0)
 		{
 			ChangePrice();
 		}

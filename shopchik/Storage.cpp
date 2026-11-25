@@ -699,6 +699,12 @@ void DeleteProduct()
 
 					std::wcout << L"\n\nТовар успешно удалён\n\n";
 					Sleep(1500);
+					if (sizeSt < 1)
+					{
+						std::wcout << L"Склад пуст\n\n";
+						Sleep(1000);
+						return;
+					}
 					continue;
 				}
 				else

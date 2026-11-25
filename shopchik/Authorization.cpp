@@ -37,7 +37,7 @@ bool Login()
 	while (true)
 	{
 		system("cls");
-		std::wcout << L"\t\t\t\t\tДобро пожаловать в магазин девайсов\"\"!\n\n";
+		std::wcout << L"\t\t\t\t\tДобро пожаловать в магазин девайсов\"Адреналин\"!\n\n";
 		std::wcout << L"Введите логин или \"exit\" для выхода: ";
 		Getline(login);
 		if (login == L"exit" || login == L"Exit")

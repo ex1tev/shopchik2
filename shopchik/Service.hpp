@@ -6,6 +6,7 @@
 #include <Windows.h>
 #include <iomanip>
 #include <cwctype>
+#include <unordered_set>
 
 
 void Getline(std::wstring& str);

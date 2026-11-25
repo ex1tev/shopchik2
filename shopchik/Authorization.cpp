@@ -112,7 +112,7 @@ void SuperAdminMenu()
 		}
 		else if (choose == L"7")
 		{
-
+			ChangeProductName();
 		}
 		else if (choose == L"8")
 		{

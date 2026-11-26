@@ -108,11 +108,11 @@ void SuperAdminMenu()
 		}
 		else if (choose == L"6")
 		{
-
+			ChangeStorage();
 		}
 		else if (choose == L"7")
 		{
-			ChangeProductName();
+			ChangeAccounts();
 		}
 		else if (choose == L"8")
 		{
